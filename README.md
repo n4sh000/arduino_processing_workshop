@@ -21,18 +21,18 @@ This project implements a simple radar system using an ultrasonic sensor and a s
 ### 1. Clone the repository
 
 ```
-git clone https://github.com/YOUR-USERNAME/arduino-sonar-processing.git
+git clone https://github.com/n4sh000/arduino_processing_workshop.git
 ```
 
 ### 2. Upload Arduino Code
 
-* Open `arduino/sonar.ino`
+* Open `arduino/sonar/sonar.ino`
 * Select the correct board and COM port
 * Upload the code to your Arduino
 
 ### 3. Run Processing Visualization
 
-* Open `processing/radar.pde`
+* Open `processing/sonar/sonar.pde`
 * Update the serial port (e.g., COM11)
 * Run the sketch
 
@@ -40,7 +40,7 @@ git clone https://github.com/YOUR-USERNAME/arduino-sonar-processing.git
 
 * Close the Arduino Serial Monitor before running Processing
 * Make sure both Arduino and Processing use the same baud rate (9600)
-* Data format must be: ``` angle,distance. ```
+* Data format must be: `angle,distance.`
 
 ## How It Works
 
@@ -63,17 +63,19 @@ git clone https://github.com/YOUR-USERNAME/arduino-sonar-processing.git
 
 ## Acknowledgments
 
-This project was built with ideas and code from a similar Arduino sonar radar implementation published by _RoboArmy_.
+This project was built with ideas and code from a similar Arduino sonar radar implementation published by **_RoboArmy_**.
 
 Original idea and concept reference:
-https://roboarmy.in/project/21
+[here](https://roboarmy.in/project/21)
 
-This repository is an independent implementation created for educational workshop purposes.
+_This repository is an independent implementation created for educational workshop purposes only._
 
 ## License
 
 This project is licensed under the MIT License.
+
 ---
 
 Built with 💙 for IEEE EDS SBC at ITCR
-- David Ignacio Araya Mora
+
+***David Ignacio Araya Mora***
