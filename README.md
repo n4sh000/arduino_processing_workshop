@@ -2,6 +2,8 @@
 
 This project implements a simple radar system using an ultrasonic sensor and a servo motor with Arduino, along with a realtime graphical interface built in Processing.
 
+<img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/9d334e86-99d9-4cd3-918b-8bde90166ec6" />
+
 ## Features
 
 * Measures distance using an ultrasonic sensor (HC-SR04)
@@ -36,6 +38,9 @@ git clone https://github.com/n4sh000/arduino_processing_workshop.git
 * Update the serial port (e.g., COM11)
 * Run the sketch
 
+### 4. Circuit Diagram
+<img width="1074" height="766" alt="image" src="https://github.com/user-attachments/assets/321582ff-c9da-4bbc-8922-3b438f4d0af4" />
+
 ## Important Notes
 
 * Close the Arduino Serial Monitor before running Processing
@@ -49,10 +54,6 @@ git clone https://github.com/n4sh000/arduino_processing_workshop.git
 3. Arduino sends angle and distance via serial communication
 4. Processing reads the data and converts it into coordinates
 5. A radar-like visualization is drawn using trigonometry (sine & cosine)
-
-## Demo
-
-(Add an image or GIF here :p)
 
 ## Troubleshooting
 
