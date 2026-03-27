@@ -18,6 +18,9 @@ This project combines hardware and software to create a radar-like system.
 - Uses trigonometry to map polar coordinates to screen coordinates
 - Displays a radar visualization
 
+## Circuit Diagram
+<img width="1074" height="766" alt="image" src="https://github.com/user-attachments/assets/6bccbe7a-0dc0-43e9-b004-b100ed98b88f" />
+
 ## For further understanding
 
 ### Serial Communication
